@@ -1,0 +1,73 @@
+.header {
+
+  position: fixed;
+  top: 0;
+  background: white;
+  width: 100%;
+  box-shadow: 0 2px 4px 3px;
+  z-index: 9997;
+}
+
+.header,
+.header-nav {
+  box-sizing: border-box;
+}
+
+header {
+  position: relative;
+  font-family: "Monteserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 2vw;
+  gap: 45px;
+}
+
+header {
+  align-items: center;
+  display: block;
+}
+
+.nenu {
+  list-style: none;
+  padding: 0;
+  box-sizing: border-box;
+  max-height: 100%;
+  display: flex;
+  gap: 24px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  display: none;
+
+}
+
+ul {
+  margin: 0;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.menu-item {
+  position: relative;
+  display: flex;
+  align-items: start;
+  text-align: right;
+  padding: 5px 0;
+  gap: 5px;
+  color: #112e51;
+}
